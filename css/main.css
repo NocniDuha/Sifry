@@ -1,6 +1,6 @@
 body {
   background-color: #6b543b;
-  background-image: url('img/grunge-vintage-old-paper-background.jpg')
+  background-image: url('img/grunge-vintage-old-paper-background.jpg');
   display: flex;
   flex-direction: column;
   align-items: center;
