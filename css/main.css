@@ -1,1 +1,91 @@
+body {
+  background-color: #6b543b;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #d2c0ad;
+}
 
+body > p {
+  text-align: center;
+}
+
+h1 {
+  font-family: "Square Peg", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 4em;
+  padding: 0px;
+  margin: 0px;
+}
+
+.karta {
+  width: 250px;
+  min-height: 200x;
+  background-color: #c0a78c;
+  border-radius: 30px;
+  margin: 5px;
+  color: #52402d;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 7px 27px;
+  text-align: justify;
+  box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.odpoved {
+  display: none;
+  font-style: italic;
+  font-weight: bold;
+}
+
+/* nastaveni carouselu */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -33px;
+  padding: 8px;
+  color: white;
+  font-weight: bold;
+  font-size: 32px;
+  transition: 0.6s ease;
+  border-radius: 30px 0px 0px 30px;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 0px 30px 30px 0px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(107, 84, 59,0.6);
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
