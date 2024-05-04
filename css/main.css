@@ -5,7 +5,9 @@ body {
   color: #d2c0ad;
 
  /* background-color: #6b543b; */
-  background-image: url('grunge-vintage-old-paper-background.jpg');
+  background: url('grunge-vintage-old-paper-background.jpg');
+  background-repeat: no-repeat;
+  background-size: auto;
 }
 
 body > p {
