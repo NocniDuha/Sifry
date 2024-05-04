@@ -3,11 +3,11 @@ body {
   flex-direction: column;
   align-items: center;
   color: #d2c0ad;
-
- /* background-color: #6b543b; */
-  background: url("486cc02eba94124e6c1cb599fa284b3c.jpg");
+  
+  background-image: url("486cc02eba94124e6c1cb599fa284b3c.jpg");
   background-repeat: no-repeat;
   background-size: auto;
+  background-color: #6b543b;
 }
 
 body > p {
