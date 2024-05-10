@@ -52,11 +52,11 @@ h1 {
 
 /* Next & previous buttons */
 #prev, #next {
-  cursor: pointer;
+ /* cursor: pointer;
   position: absolute;
   top: 50%;
   width: auto;
-  margin-top: -33px;
+  margin-top: -33px;*/
   padding: 8px;
   color: white;
   font-weight: bold;
