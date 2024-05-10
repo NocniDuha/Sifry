@@ -13,6 +13,8 @@ let otazka = document.getElementById("otazka");
 let odpoved = document.getElementById("odpoved");
 let karta = document.getElementById("karta");
 
+Add();
+
 // Carousel
 let slideIndex = 1;
 showSlides(slideIndex);
@@ -32,12 +34,12 @@ function showSlides(n) {
   if (n > hadanky.length) {slideIndex = 1;}
   if (n < 1) {slideIndex = hadanky.length;}
   otazka.innerText = hadanky[slideIndex-1].otazka;
-  odpoved.style.display = "block";
+  odpoved.style.display = "none";
   odpoved.innerText = hadanky[slideIndex-1].odpoved;
+}
 
+function Add() {
   karta.addEventListener('click', function () { 
-    odpoved.style.display="block";
-    
     if (odpoved.style.display == "none") {
         odpoved.style.display = "block"} 
     else {
