@@ -1,12 +1,10 @@
 let hadanky = [
-  {otazka: "Otázka 1",
-   odpoved:"Odpověď 1"},
-  {otazka: "Otázka 2",
-   odpoved:"Odpověď 2"},
-  {otazka: "Otázka 3",
-   odpoved:"Odpověď 3"},
-  {otazka: "Otázka 4",
-   odpoved:"Odpověď 4"}
+  {otazka: "Z CYKLU NEVŠEDNÍ ÚMRTÍ Ve 48 si podřezal hrdlo a probodl srdce. KDO je to?",
+   odpoved:"Vilém Mrštík"},
+  {otazka: "Jako malá dívka zbožňovala domečky pro panenky. Dokázala je zařizovat pidi dekoracemi celé hodiny. Když vyrostla, zbožňovala domy, kupovala je, zařizovala vkusným nábytkem a mnoha dekoracemi. Mohla si to dovolit. KDO je to?",
+   odpoved:"Agatha Christie"},
+  {otazka: "POZNEJ LITERÁRNÍ DÍLO Schopnost tělesa odrážet světlo se pojí s nedostatkem životních potřeb profesionálních společnic",
+   odpoved:"Lesk a bída kurtizán"}
 ];
 
 let otazka = document.getElementById("otazka");
