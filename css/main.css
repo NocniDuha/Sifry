@@ -23,7 +23,7 @@ h1 {
   margin: 0px;
 }
 
-.karta {
+#karta {
   width: 250px;
   min-height: 200x;
   background-color: #c0a78c;
