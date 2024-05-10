@@ -30,8 +30,7 @@ h1 {
 }
 
 #karta {
-  width: 250px;
-  min-height: 200x;
+  width: 60vw;
   background-color: #c0a78c;
   border-radius: 30px;
   margin: 5px;
