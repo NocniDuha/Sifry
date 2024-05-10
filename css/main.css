@@ -38,22 +38,10 @@ h1 {
   box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.odpoved {
+#odpoved {
   display: none;
   font-style: italic;
   font-weight: bold;
-}
-
-/* nastaveni carouselu */
-.slideshow-container {
-  max-width: 1000px;
-  position: relative;
-  margin: auto;
-}
-
-/* Hide the images by default */
-.mySlides {
-  display: none;
 }
 
 /* Next & previous buttons */
