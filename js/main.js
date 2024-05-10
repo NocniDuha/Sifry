@@ -11,7 +11,7 @@ let hadanky = [
 
 let otazka = document.getElementById("otazka");
 let odpoved = document.getElementById("odpoved");
-let pokus = document.getElementById("pokus");
+let karta = document.getElementById("karta");
 
 // Carousel
 let slideIndex = 1;
@@ -31,22 +31,16 @@ function showSlides(n) {
 
   if (n > hadanky.length) {slideIndex = 1;}
   if (n < 1) {slideIndex = hadanky.length;}
-  otazka.innerHTML = hadanky[slideIndex-1].otazka;
-  odpoved.innerHMTL = hadanky[slideIndex-1].odpoved;
-}
+  otazka.innerText = hadanky[slideIndex-1].otazka;
+  odpoved.style.display = "block";
+  odpoved.innerText = hadanky[slideIndex-1].odpoved;
 
-// Pridava event listener ke kazde karte
-//function addEvent () {
-//let karta = document.getElementsByClassName("karta");
-//let zk = document.getElementById("zkouska");
-//
-//for (let i=0; i < hadanky.length; i++) {
-//   karta[i].addEventListener('click', function () { //odpoved[i].style.display="block";
-//     
-//     if (odpoved[i].style.display == "none") {
-//          odpoved[i].style.display = "block"} 
-//    else {
-//          odpoved[i].style.display="none"}
-//         });
-//       }
-//}
+  karta.addEventListener('click', function () { 
+    odpoved.style.display="block";
+    
+    if (odpoved.style.display == "none") {
+        odpoved.style.display = "block"} 
+    else {
+          odpoved.style.display="none"}
+         });
+       }
