@@ -3,7 +3,7 @@ body {
   flex-direction: column;
   align-items: center;
   color: #d2c0ad;
-  
+  width: 95vw;
   background-image: url('../old-paper.jpg');/*("https://img.freepik.com/free-vector/realistic-old-paper-texture-background_52683-73792.jpg?w=1060&t=st=1714786384~exp=1714786984~hmac=a99c14f453ea13d7120a48cf598c54ee24757fc09eaea692828a54464c933f55");*/
 /*  background-repeat: no-repeat;
   background-size: auto; */
@@ -21,6 +21,10 @@ h1 {
   font-size: 4em;
   padding: 0px;
   margin: 0px;
+}
+
+img {
+  max-width: 80%;
 }
 
 #slideshow {
@@ -41,6 +45,10 @@ h1 {
   padding: 7px 27px;
   text-align: justify;
   box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#tema {
+  text-transform: capitalize
 }
 
 #odpoved {
