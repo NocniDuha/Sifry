@@ -2,15 +2,27 @@ let hadanky = [
   {dil:"1. díl",
    tema:"Z cyklu nevšední úmrtí",
     otazka: "Ve 48 si podřezal hrdlo a probodl srdce. KDO je to?",
+    img:"",
    odpoved:"Vilém Mrštík"},
+  
   {dil:"2. díl",
    tema:"",
-    otazka: "Jako malá dívka zbožňovala domečky pro panenky. Dokázala je zařizovat pidi dekoracemi celé hodiny. Když vyrostla, zbožňovala domy, kupovala je, zařizovala vkusným nábytkem a mnoha dekoracemi. Mohla si to dovolit. KDO je to?",
+   otazka: "Jako malá dívka zbožňovala domečky pro panenky. Dokázala je zařizovat pidi dekoracemi celé hodiny. Když vyrostla, zbožňovala domy, kupovala je, zařizovala vkusným nábytkem a mnoha dekoracemi. Mohla si to dovolit. KDO je to?",
+   img:"",
    odpoved:"Agatha Christie"},
+  
   {dil:"3. díl",
    tema:"Poznej literární dílo",
-    otazka: "Schopnost tělesa odrážet světlo se pojí s nedostatkem životních potřeb profesionálních společnic",
-   odpoved:"Lesk a bída kurtizán"}
+   otazka: "Schopnost tělesa odrážet světlo se pojí s nedostatkem životních potřeb profesionálních společnic",
+   img:"",
+   odpoved:"Lesk a bída kurtizán"},
+
+  {dil:"3. díl",
+   tema:"Co je to?",
+   otazka:"",
+   img:"https://c.files.bbci.co.uk/17069/production/_132831349_aurora2.jpg",
+   odpoved:"Aurora borealis"
+  }
 ];
 
 let dil = document.getElementById("dil");
@@ -42,8 +54,9 @@ function showSlides(n) {
   dil.innerText = hadanky[slideIndex-1].dil;
   tema.innerText = hadanky[slideIndex-1].tema;
   otazka.innerText = hadanky[slideIndex-1].otazka;
- // odpoved.style.display = "none";
   odpoved.innerText = hadanky[slideIndex-1].odpoved;
+
+  if (hadanky[slideIndex-1].img !== "") {otazka.innerHTML = "<img src='"+hadanky[slideIndex-1].img+"'>"}
 }
 
 function Add() {
