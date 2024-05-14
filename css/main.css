@@ -26,6 +26,7 @@ h1 {
 #img {
   width: 45vw;
   max-height: 50vh;
+  border-radius: 30px;
 }
 
 #slideshow {
