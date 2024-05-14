@@ -48,7 +48,8 @@ img {
 }
 
 #tema {
-  text-transform: capitalize
+  font-size:1.4em;
+  font-variant-caps: small-caps;
 }
 
 #odpoved {
@@ -59,29 +60,32 @@ img {
 
 /* Next & previous buttons */
 #prev, #next {
- /* cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  margin-top: -33px;*/
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 70px;
+  cursor: pointer;
   padding: 8px;
-  color: white;
   font-weight: bold;
   font-size: 32px;
   transition: 0.6s ease;
-  border-radius: 30px 0px 0px 30px;
+  border-radius: 30px 10px 10px 30px;
   user-select: none;
+
+  background-color: rgba(107, 84, 59, 0.6);
+  color: #d2c0ad;
 }
 
 /* Position the "next button" to the right */
 #next {
   right: 0;
-  border-radius: 0px 30px 30px 0px;
+  border-radius: 10px 30px 30px 10px;
 }
 
 /* On hover, add a black background color with a little bit see-through */
 #prev:hover, #next:hover {
-  background-color: rgba(107, 84, 59,0.6);
+  background-color: rgba(210, 192, 173, 0.6);
+  color: #52402d;
 }
 
 /* Fading animation */
