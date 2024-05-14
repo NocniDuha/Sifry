@@ -30,7 +30,7 @@ let tema = document.getElementById("tema");
 let otazka = document.getElementById("otazka");
 let odpoved = document.getElementById("odpoved");
 let karta = document.getElementById("karta");
-
+let img = document.getElementById("img");
 Add();
 
 // Carousel
@@ -56,7 +56,7 @@ function showSlides(n) {
   otazka.innerText = hadanky[slideIndex-1].otazka;
   odpoved.innerText = hadanky[slideIndex-1].odpoved;
 
-  if (hadanky[slideIndex-1].img !== "") {otazka.innerHTML = "<img src='"+hadanky[slideIndex-1].img+"'>"}
+  if (hadanky[slideIndex-1].img !== "") {otazka.innerHTML = "<img id='img' src='"+hadanky[slideIndex-1].img+"'>"}
 }
 
 function Add() {
