@@ -8,7 +8,7 @@
        }
 
        #img {
-              width: auto;
-              height: 50vh;
+              width: 45vw;
+              max-height: 50vh;
        }
 }
