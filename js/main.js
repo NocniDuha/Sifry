@@ -56,6 +56,8 @@ function showSlides(n) {
   otazka.innerText = hadanky[slideIndex-1].otazka;
   odpoved.innerText = hadanky[slideIndex-1].odpoved;
 
+  odpoved.style.display="none";
+  
   if (hadanky[slideIndex-1].img !== "") {otazka.innerHTML = "<img id='img' src='"+hadanky[slideIndex-1].img+"'>"}
 }
 
