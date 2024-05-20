@@ -2,7 +2,7 @@ let hadanky = [
   {dil:"1. díl",
    tema:"Z cyklu nevšední úmrtí",
     otazka: "Ve 48 si podřezal hrdlo a probodl srdce. KDO je to?",
-    img:"https://www.knihydobrovsky.cz/thumbs/og-image/authors/194343/photo.jpg",
+    img:"https://upload.wikimedia.org/wikipedia/commons/1/1c/Vil%C3%A9m_Mr%C5%A1t%C3%ADk_%281863-1912%29.jpg",
    odpoved:"Vilém Mrštík"},
   
   {dil:"2. díl",
@@ -60,6 +60,7 @@ function showSlides(n) {
   
   if (hadanky[slideIndex-1].img !== "") {otazka.innerHTML = otazka.innerText + "<img id='img' src='"+hadanky[slideIndex-1].img+"'>"}
   if ((window.innerWidth > window.innerHeight) == true) {img.style.height = "60vh"; img.style.width = "auto"}
+  console.log((window.innerWidth > window.innerHeight) == true);
 }
 
 function Add() {
