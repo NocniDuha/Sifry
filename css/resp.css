@@ -4,7 +4,7 @@
        }
        
        #karta {
-                width: 45vw;
+                max-width: 45vw;
        }
 
        #img {
