@@ -35,7 +35,7 @@ h1 {
 }
 
 #karta {
-  width: 60vw;
+  max-width: 60vw;
   background-color: #c0a78c;
   border-radius: 30px;
   margin: 5px;
@@ -51,6 +51,13 @@ h1 {
 #tema {
   font-size:1.4em;
   font-variant-caps: small-caps;
+}
+
+#otazka {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: left;
 }
 
 #odpoved {
