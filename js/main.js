@@ -2,7 +2,7 @@ let hadanky = [
   {dil:"1. díl",
    tema:"Z cyklu nevšední úmrtí",
     otazka: "Ve 48 si podřezal hrdlo a probodl srdce. KDO je to?",
-    img:"",
+    img:"https://www.knihydobrovsky.cz/thumbs/og-image/authors/194343/photo.jpg",
    odpoved:"Vilém Mrštík"},
   
   {dil:"2. díl",
