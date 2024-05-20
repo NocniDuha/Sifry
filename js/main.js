@@ -58,7 +58,7 @@ function showSlides(n) {
 
   odpoved.style.display="none";
   
-  if (hadanky[slideIndex-1].img !== "") {otazka.innerHTML = "<img id='img' src='"+hadanky[slideIndex-1].img+"'>"}
+  if (hadanky[slideIndex-1].img !== "") {otazka.innerHTML = otazka.innerText + "<img id='img' src='"+hadanky[slideIndex-1].img+"'>"}
 }
 
 function Add() {
