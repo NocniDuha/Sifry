@@ -53,7 +53,7 @@ function showSlides(n) {
   if (n < 1) {slideIndex = hadanky.length;}
   dil.innerText = hadanky[slideIndex-1].dil;
   tema.innerText = hadanky[slideIndex-1].tema;
-  otazka.innerText = hadanky[slideIndex-1].otazka;
+  otazka.innerText = hadanky[slideIndex-1].otazka + otazka.innerHTML;
   odpoved.innerText = hadanky[slideIndex-1].odpoved;
 
   odpoved.style.display="none";
