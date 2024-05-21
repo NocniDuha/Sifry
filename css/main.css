@@ -96,6 +96,10 @@ h1 {
   color: #52402d;
 }
 
+#footer {
+  margin-top: auto;
+}
+
 /* Fading animation */
 .fade {
   animation-name: fade;
