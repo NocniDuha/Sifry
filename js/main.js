@@ -59,8 +59,6 @@ function showSlides(n) {
   odpoved.style.display="none";
   
   if (hadanky[slideIndex-1].img !== "") {otazka.innerHTML = otazka.innerHTML + "<img id='img' src='"+hadanky[slideIndex-1].img+"'>"}
-  if ((window.innerWidth > window.innerHeight) == true) {img.style.height = "60vh"; img.style.width = "auto"}
-  console.log((window.innerWidth > window.innerHeight) == true);
 }
 
 function Add() {
