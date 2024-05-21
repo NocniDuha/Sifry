@@ -53,12 +53,12 @@ function showSlides(n) {
   if (n < 1) {slideIndex = hadanky.length;}
   dil.innerText = hadanky[slideIndex-1].dil;
   tema.innerText = hadanky[slideIndex-1].tema;
-  otazka.innerText = hadanky[slideIndex-1].otazka + otazka.innerHTML;
+  otazka.innerText = hadanky[slideIndex-1].otazka;
   odpoved.innerText = hadanky[slideIndex-1].odpoved;
 
   odpoved.style.display="none";
   
-  if (hadanky[slideIndex-1].img !== "") {img.innerHTML = "<img id='img' src='"+hadanky[slideIndex-1].img+"'>"}
+  if (hadanky[slideIndex-1].img !== "") {otazka.innerHTML = otazka.innerHTML + "<img id='img' src='"+hadanky[slideIndex-1].img+"'>"}
   if ((window.innerWidth > window.innerHeight) == true) {img.style.height = "60vh"; img.style.width = "auto"}
   console.log((window.innerWidth > window.innerHeight) == true);
 }
