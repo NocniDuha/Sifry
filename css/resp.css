@@ -12,9 +12,6 @@
               width: 45vw;
        }
 
-       #prev, #next {
-              height: 10vh;
-       }
 }
 
 @media screen and (orientation: landscape) {
