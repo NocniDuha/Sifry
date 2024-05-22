@@ -98,6 +98,14 @@ h1 {
 
 #footer {
   margin-top: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#footer > p > a {
+  color: #d2c0ad;
+  cursor: pointer;
 }
 
 /* Fading animation */
