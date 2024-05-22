@@ -98,12 +98,14 @@ h1 {
 
 #footer {
   margin-top: auto;
+  padding-top: 10px;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 
 #footer > p > a {
+  margin: 0px;
   color: #d2c0ad;
   cursor: pointer;
 }
