@@ -17,6 +17,15 @@
               height: 5vh;
        }
 
+       #footer {
+              flex-direction: row;
+              justify-content: space-between;
+       }
+
+       #footer >* {
+               margin: 0px 5px 0px 5px;
+       }
+
 }
 
 @media screen and (orientation: landscape) {
