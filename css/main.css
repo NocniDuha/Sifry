@@ -104,8 +104,11 @@ h1 {
   justify-content: center;
 }
 
-#footer > p > a {
+#footer > * {
   margin: 0px;
+}
+
+#footer > p > a {
   color: #d2c0ad;
   cursor: pointer;
 }
