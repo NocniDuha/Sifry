@@ -30,8 +30,12 @@
                text-align: center;
        }
 
+       #footer>p:first-child {
+              width: 99%;
+       }
+
        #footer>p:nth-child(2), #footer>p:nth-child(3){
-                width: 45%;
+                width: 48%;
        }
 
 }
