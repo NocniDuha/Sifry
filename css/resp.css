@@ -24,10 +24,15 @@
               justify-content: space-between;
        }
 
+
        #footer >* {
                margin: 0px 5px 0px 5px;
                flex-grow: 1;
                text-align: center;
+       }
+
+       #footer :last-child {
+                flex-grow: 3;
        }
 
 }
