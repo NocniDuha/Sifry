@@ -32,8 +32,8 @@
                text-align: center;
        }
 
-       #footer>p:last-child {
-                flex-grow: 10;
+       #footer>p:nth-child(2), #footer>p:nth-child(3){
+                width: 50%;
        }
 
 }
