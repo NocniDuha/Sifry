@@ -31,8 +31,8 @@
                text-align: center;
        }
 
-       #footer :last-child {
-                flex-grow: 3;
+       #footer:last-child {
+                flex-grow: 10;
        }
 
 }
