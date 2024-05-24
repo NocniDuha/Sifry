@@ -25,14 +25,14 @@
        }
 
 
-       #footer >* {
+       #footer>p {
                margin: 0px 5px 0px 5px;
                display: flex;
                flex-grow: 1;
                text-align: center;
        }
 
-       #footer:last-child {
+       #footer>p:last-child {
                 flex-grow: 10;
        }
 
